@@ -76,19 +76,6 @@ visited states.
 Overall, the refactors are intended to make the code more modular and 
 readable than the previous versions.
 
-### Version 0.1
-#### 12/04/2018
- - Add RIG implementation
-
-#### 12/03/2018
- - Add HER implementation
- - Add doodad support
-
-#### 10/16/2018
- - Upgraded to PyTorch v0.4
- - Added Twin Soft Actor Critic Implementation
- - Various small refactor (e.g. logger, evaluate code)
-
 ## Installation
 
 1. Install and use the included Ananconda environment
@@ -216,43 +203,6 @@ For Temporal Difference Models (TDMs) and the original implementation of
 Reinforcement Learning with Imagined Goals (RIG), run
 `git checkout tags/v0.1.2`.
 
-# References
-The algorithms are based on the following papers
+# Update
+* 2020.7.9 Add tensorboard support;
 
-[Skew-Fit: State-Covering Self-Supervised Reinforcement Learning](https://arxiv.org/abs/1903.03698).  
-Vitchyr H. Pong*, Murtaza Dalal*, Steven Lin*, Ashvin Nair, Shikhar Bahl, Sergey Levine. arXiv preprint, 2019.
-
-[Visual Reinforcement Learning with Imagined Goals](https://arxiv.org/abs/1807.04742).  
-Ashvin Nair*, Vitchyr Pong*, Murtaza Dalal, Shikhar Bahl, Steven Lin, Sergey Levine. NeurIPS 2018.
-
-[Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081).  
-Vitchyr Pong*, Shixiang Gu*, Murtaza Dalal, Sergey Levine. ICLR 2018.
-
-[Hindsight Experience Replay](https://arxiv.org/abs/1707.01495).  
-Marcin Andrychowicz, Filip Wolski, Alex Ray, Jonas Schneider, Rachel Fong, Peter Welinder, Bob McGrew, Josh Tobin, Pieter Abbeel, Wojciech Zaremba. NeurIPS 2017.
-
-[Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461).  
-Hado van Hasselt, Arthur Guez, David Silver. AAAI 2016.
-
-[Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236).  
-Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, Demis Hassabis. Nature 2015.
-
-[Soft Actor-Critic Algorithms and Applications](https://arxiv.org/abs/1812.05905).  
-Tuomas Haarnoja, Aurick Zhou, Kristian Hartikainen, George Tucker, Sehoon Ha, Jie Tan, Vikash Kumar, Henry Zhu, Abhishek Gupta, Pieter Abbeel, Sergey Levine. arXiv preprint, 2018.
-
-[Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://arxiv.org/abs/1801.01290).  
-Tuomas Haarnoja, Aurick Zhou, Pieter Abbeel, and Sergey Levine. ICML, 2018.
-
-[Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477)
-Scott Fujimoto, Herke van Hoof, David Meger. ICML, 2018.
-
-# Credits
-A lot of the coding infrastructure is based on [rllab](https://github.com/rll/rllab).
-The serialization and logger code are basically a carbon copy of the rllab versions.
-
-The Dockerfile is based on the [OpenAI mujoco-py Dockerfile](https://github.com/openai/mujoco-py/blob/master/Dockerfile).
-
-Other major collaborators and contributions:
- - [Murtaza Dalal](https://github.com/mdalal2020)
- - [Steven Lin](https://github.com/stevenlin1111)
- - [Ashvin Nair](https://github.com/anair13)
