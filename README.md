@@ -1,4 +1,4 @@
-# RLkit
+# RLkit_pro
 Reinforcement learning framework and algorithms implemented in PyTorch, which is forked from https://github.com/vitchyr/rlkit. See the origin repositories for more information.
 
 
