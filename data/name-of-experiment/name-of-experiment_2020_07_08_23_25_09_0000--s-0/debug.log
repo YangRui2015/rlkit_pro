@@ -1,0 +1,349 @@
+2020-07-08 23:25:26.695816 CST | [name-of-experiment_2020_07_08_23_25_09_0000--s-0] Epoch 0 finished
+-----------------------------  --------------
+replay_buffer/size             2000
+trainer/QF Loss                   1.00512
+trainer/Y Predictions Mean       -0.00203216
+trainer/Y Predictions Std         0.000611166
+trainer/Y Predictions Max        -0.00137556
+trainer/Y Predictions Min        -0.00465258
+exploration/num steps total    2000
+exploration/num paths total     201
+exploration/path length Mean     10.2041
+exploration/path length Std       1.71999
+exploration/path length Max      17
+exploration/path length Min       8
+exploration/Rewards Mean          1
+exploration/Rewards Std           0
+exploration/Rewards Max           1
+exploration/Rewards Min           1
+exploration/Returns Mean         10.2041
+exploration/Returns Std           1.71999
+exploration/Returns Max          17
+exploration/Returns Min           8
+exploration/Actions Mean          0.932
+exploration/Actions Std           0.251746
+exploration/Actions Max           1
+exploration/Actions Min           0
+exploration/Num Paths            98
+exploration/Average Returns      10.2041
+evaluation/num steps total     4998
+evaluation/num paths total      533
+evaluation/path length Mean       9.37711
+evaluation/path length Std        0.800095
+evaluation/path length Max       11
+evaluation/path length Min        8
+evaluation/Rewards Mean           1
+evaluation/Rewards Std            0
+evaluation/Rewards Max            1
+evaluation/Rewards Min            1
+evaluation/Returns Mean           9.37711
+evaluation/Returns Std            0.800095
+evaluation/Returns Max           11
+evaluation/Returns Min            8
+evaluation/Actions Mean           1
+evaluation/Actions Std            0
+evaluation/Actions Max            1
+evaluation/Actions Min            1
+evaluation/Num Paths            533
+evaluation/Average Returns        9.37711
+time/data storing (s)             0.0193251
+time/evaluation sampling (s)      2.10081
+time/exploration sampling (s)     0.370401
+time/logging (s)                  0.0516883
+time/saving (s)                   0.0315764
+time/training (s)                 4.38922
+time/epoch (s)                    6.96302
+time/total (s)                   16.9283
+Epoch                             0
+-----------------------------  --------------
+2020-07-08 23:25:33.090885 CST | [name-of-experiment_2020_07_08_23_25_09_0000--s-0] Epoch 1 finished
+-----------------------------  ------------
+replay_buffer/size             3000
+trainer/QF Loss                   0.0108813
+trainer/Y Predictions Mean        1.40571
+trainer/Y Predictions Std         0.0584118
+trainer/Y Predictions Max         1.51281
+trainer/Y Predictions Min         1.24778
+exploration/num steps total    3000
+exploration/num paths total     305
+exploration/path length Mean      9.61538
+exploration/path length Std       1.31052
+exploration/path length Max      14
+exploration/path length Min       3
+exploration/Rewards Mean          1
+exploration/Rewards Std           0
+exploration/Rewards Max           1
+exploration/Rewards Min           1
+exploration/Returns Mean          9.61538
+exploration/Returns Std           1.31052
+exploration/Returns Max          14
+exploration/Returns Min           3
+exploration/Actions Mean          0.945
+exploration/Actions Std           0.22798
+exploration/Actions Max           1
+exploration/Actions Min           0
+exploration/Num Paths           104
+exploration/Average Returns       9.61538
+evaluation/num steps total     9996
+evaluation/num paths total     1066
+evaluation/path length Mean       9.37711
+evaluation/path length Std        0.744209
+evaluation/path length Max       11
+evaluation/path length Min        8
+evaluation/Rewards Mean           1
+evaluation/Rewards Std            0
+evaluation/Rewards Max            1
+evaluation/Rewards Min            1
+evaluation/Returns Mean           9.37711
+evaluation/Returns Std            0.744209
+evaluation/Returns Max           11
+evaluation/Returns Min            8
+evaluation/Actions Mean           1
+evaluation/Actions Std            0
+evaluation/Actions Max            1
+evaluation/Actions Min            1
+evaluation/Num Paths            533
+evaluation/Average Returns        9.37711
+time/data storing (s)             0.0218747
+time/evaluation sampling (s)      2.13035
+time/exploration sampling (s)     0.395135
+time/logging (s)                  0.0500878
+time/saving (s)                   0.0154455
+time/training (s)                 3.76681
+time/epoch (s)                    6.3797
+time/total (s)                   23.3203
+Epoch                             1
+-----------------------------  ------------
+2020-07-08 23:25:38.718586 CST | [name-of-experiment_2020_07_08_23_25_09_0000--s-0] Epoch 2 finished
+-----------------------------  -------------
+replay_buffer/size              4000
+trainer/QF Loss                    0.153139
+trainer/Y Predictions Mean         2.11604
+trainer/Y Predictions Std          0.359237
+trainer/Y Predictions Max          3.42998
+trainer/Y Predictions Min          1.4173
+exploration/num steps total     4000
+exploration/num paths total      408
+exploration/path length Mean       9.70874
+exploration/path length Std        1.19571
+exploration/path length Max       12
+exploration/path length Min        5
+exploration/Rewards Mean           1
+exploration/Rewards Std            0
+exploration/Rewards Max            1
+exploration/Rewards Min            1
+exploration/Returns Mean           9.70874
+exploration/Returns Std            1.19571
+exploration/Returns Max           12
+exploration/Returns Min            5
+exploration/Actions Mean           0.052
+exploration/Actions Std            0.222027
+exploration/Actions Max            1
+exploration/Actions Min            0
+exploration/Num Paths            103
+exploration/Average Returns        9.70874
+evaluation/num steps total     14992
+evaluation/num paths total      1603
+evaluation/path length Mean        9.30354
+evaluation/path length Std         0.746841
+evaluation/path length Max        11
+evaluation/path length Min         8
+evaluation/Rewards Mean            1
+evaluation/Rewards Std             0
+evaluation/Rewards Max             1
+evaluation/Rewards Min             1
+evaluation/Returns Mean            9.30354
+evaluation/Returns Std             0.746841
+evaluation/Returns Max            11
+evaluation/Returns Min             8
+evaluation/Actions Mean            0
+evaluation/Actions Std             0
+evaluation/Actions Max             0
+evaluation/Actions Min             0
+evaluation/Num Paths             537
+evaluation/Average Returns         9.30354
+time/data storing (s)              0.0212293
+time/evaluation sampling (s)       1.24978
+time/exploration sampling (s)      0.251731
+time/logging (s)                   0.0609296
+time/saving (s)                    0.0147649
+time/training (s)                  4.02911
+time/epoch (s)                     5.62754
+time/total (s)                    28.9578
+Epoch                              2
+-----------------------------  -------------
+2020-07-08 23:25:47.861116 CST | [name-of-experiment_2020_07_08_23_25_09_0000--s-0] Epoch 3 finished
+-----------------------------  -------------
+replay_buffer/size              5000
+trainer/QF Loss                    0.185708
+trainer/Y Predictions Mean         2.78061
+trainer/Y Predictions Std          0.340393
+trainer/Y Predictions Max          3.30663
+trainer/Y Predictions Min          1.72569
+exploration/num steps total     5000
+exploration/num paths total      418
+exploration/path length Mean     100
+exploration/path length Std       27.6188
+exploration/path length Max      157
+exploration/path length Min       61
+exploration/Rewards Mean           1
+exploration/Rewards Std            0
+exploration/Rewards Max            1
+exploration/Rewards Min            1
+exploration/Returns Mean         100
+exploration/Returns Std           27.6188
+exploration/Returns Max          157
+exploration/Returns Min           61
+exploration/Actions Mean           0.48
+exploration/Actions Std            0.4996
+exploration/Actions Max            1
+exploration/Actions Min            0
+exploration/Num Paths             10
+exploration/Average Returns      100
+evaluation/num steps total     19971
+evaluation/num paths total      1655
+evaluation/path length Mean       95.75
+evaluation/path length Std        27.6759
+evaluation/path length Max       190
+evaluation/path length Min        57
+evaluation/Rewards Mean            1
+evaluation/Rewards Std             0
+evaluation/Rewards Max             1
+evaluation/Rewards Min             1
+evaluation/Returns Mean           95.75
+evaluation/Returns Std            27.6759
+evaluation/Returns Max           190
+evaluation/Returns Min            57
+evaluation/Actions Mean            0.477204
+evaluation/Actions Std             0.49948
+evaluation/Actions Max             1
+evaluation/Actions Min             0
+evaluation/Num Paths              52
+evaluation/Average Returns        95.75
+time/data storing (s)              0.0229615
+time/evaluation sampling (s)       1.95149
+time/exploration sampling (s)      0.561806
+time/logging (s)                   0.0466716
+time/saving (s)                    0.0149477
+time/training (s)                  6.51749
+time/epoch (s)                     9.11537
+time/total (s)                    38.0837
+Epoch                              3
+-----------------------------  -------------
+2020-07-08 23:25:54.868735 CST | [name-of-experiment_2020_07_08_23_25_09_0000--s-0] Epoch 4 finished
+-----------------------------  -------------
+replay_buffer/size              6000
+trainer/QF Loss                    0.312134
+trainer/Y Predictions Mean         3.62352
+trainer/Y Predictions Std          0.597262
+trainer/Y Predictions Max          4.98129
+trainer/Y Predictions Min          1.97356
+exploration/num steps total     6000
+exploration/num paths total      477
+exploration/path length Mean      16.9492
+exploration/path length Std       10.9891
+exploration/path length Max       49
+exploration/path length Min        9
+exploration/Rewards Mean           1
+exploration/Rewards Std            0
+exploration/Rewards Max            1
+exploration/Rewards Min            1
+exploration/Returns Mean          16.9492
+exploration/Returns Std           10.9891
+exploration/Returns Max           49
+exploration/Returns Min            9
+exploration/Actions Mean           0.578
+exploration/Actions Std            0.493879
+exploration/Actions Max            1
+exploration/Actions Min            0
+exploration/Num Paths             59
+exploration/Average Returns       16.9492
+evaluation/num steps total     24947
+evaluation/num paths total      1968
+evaluation/path length Mean       15.8978
+evaluation/path length Std        10.3456
+evaluation/path length Max        44
+evaluation/path length Min         9
+evaluation/Rewards Mean            1
+evaluation/Rewards Std             0
+evaluation/Rewards Max             1
+evaluation/Rewards Min             1
+evaluation/Returns Mean           15.8978
+evaluation/Returns Std            10.3456
+evaluation/Returns Max            44
+evaluation/Returns Min             9
+evaluation/Actions Mean            0.599277
+evaluation/Actions Std             0.490045
+evaluation/Actions Max             1
+evaluation/Actions Min             0
+evaluation/Num Paths             313
+evaluation/Average Returns        15.8978
+time/data storing (s)              0.0194923
+time/evaluation sampling (s)       2.2047
+time/exploration sampling (s)      0.406435
+time/logging (s)                   0.0663653
+time/saving (s)                    0.0158207
+time/training (s)                  4.29618
+time/epoch (s)                     7.009
+time/total (s)                    45.1096
+Epoch                              4
+-----------------------------  -------------
+2020-07-08 23:26:01.426780 CST | [name-of-experiment_2020_07_08_23_25_09_0000--s-0] Epoch 5 finished
+-----------------------------  -------------
+replay_buffer/size              7000
+trainer/QF Loss                    0.371467
+trainer/Y Predictions Mean         4.31979
+trainer/Y Predictions Std          0.805443
+trainer/Y Predictions Max          7.14379
+trainer/Y Predictions Min          1.9338
+exploration/num steps total     7000
+exploration/num paths total      496
+exploration/path length Mean      52.6316
+exploration/path length Std       19.3124
+exploration/path length Max       89
+exploration/path length Min       11
+exploration/Rewards Mean           1
+exploration/Rewards Std            0
+exploration/Rewards Max            1
+exploration/Rewards Min            1
+exploration/Returns Mean          52.6316
+exploration/Returns Std           19.3124
+exploration/Returns Max           89
+exploration/Returns Min           11
+exploration/Actions Mean           0.506
+exploration/Actions Std            0.499964
+exploration/Actions Max            1
+exploration/Actions Min            0
+exploration/Num Paths             19
+exploration/Average Returns       52.6316
+evaluation/num steps total     29936
+evaluation/num paths total      2045
+evaluation/path length Mean       64.7922
+evaluation/path length Std        15.6316
+evaluation/path length Max       108
+evaluation/path length Min        31
+evaluation/Rewards Mean            1
+evaluation/Rewards Std             0
+evaluation/Rewards Max             1
+evaluation/Rewards Min             1
+evaluation/Returns Mean           64.7922
+evaluation/Returns Std            15.6316
+evaluation/Returns Max           108
+evaluation/Returns Min            31
+evaluation/Actions Mean            0.483865
+evaluation/Actions Std             0.49974
+evaluation/Actions Max             1
+evaluation/Actions Min             0
+evaluation/Num Paths              77
+evaluation/Average Returns        64.7922
+time/data storing (s)              0.0184398
+time/evaluation sampling (s)       1.98014
+time/exploration sampling (s)      0.404577
+time/logging (s)                   0.0842875
+time/saving (s)                    0.0216057
+time/training (s)                  4.04291
+time/epoch (s)                     6.55196
+time/total (s)                    51.6841
+Epoch                              5
+-----------------------------  -------------
+2020-07-08 23:26:07.942741 CST | [name-of-experiment_2020_07_08_23_25_09_0000--s-0] Epoch 6 finished
